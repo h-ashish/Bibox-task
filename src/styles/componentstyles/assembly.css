@@ -1,0 +1,56 @@
+/**{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+.assembly-div{
+	display: flex;
+	margin: 10px;
+	justify-content: space-between;
+}
+
+#board-1{
+	flex:1;
+	max-width: 300px;
+    padding: 20px;
+	height: 100vh;
+	max-height: 800px;
+	box-shadow: 5px 0 5px -2px #888;
+}
+#board-2{
+	flex:1;
+	width: 100%;
+    padding: 20px;
+	height:100vh;
+	box-shadow: 5px 0 5px -2px #888;
+}
+
+.header{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.assembly-card {
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);
+	transition: 0.3s;
+	width: 200px;
+	max-height: 10%;
+	margin-bottom: 20px;
+}
+
+.assembly-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.assembly-container {
+  padding: 16px;
+}
+.showfinal-assembly{
+	background: #333;
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 5px 15px;
+	margin: 15px;
+}

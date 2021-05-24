@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import '../styles/componentstyles/home.css';
+@import '../styles/componentstyles/products.css';
+@import '../styles/componentstyles/assembly.css';
+@import '../styles/componentstyles/boards.css';
+@import '../styles/componentstyles/finalAssembly.css';
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}

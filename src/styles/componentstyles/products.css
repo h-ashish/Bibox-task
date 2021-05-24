@@ -1,0 +1,61 @@
+.slick-arrow {
+	color: black;
+	background-color: black;
+	height:50px;
+	width:50px;
+	border-radius: 100px;
+}
+.slick-track{
+	width:90%;
+	box-shadow:  8px 0 16px 0 rgba(0,0,0,0.2);
+}
+.main-div{
+	margin: 50px;
+	padding: 20px;
+}
+.header-div{
+
+	text-align: center;
+}
+.card {
+  transition: 0.3s;
+  width: 200px;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 16px;
+}
+
+.select-button{
+	background: #57b846;
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 5px 20px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.remove-button{
+	background: #cc0000;
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 5px 20px;
+	margin-top: 15px;
+}
+.start-assembly{
+	background: #333;
+	color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 5px 15px;
+	margin: 15px;
+}
